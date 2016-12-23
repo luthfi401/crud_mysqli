@@ -7,7 +7,7 @@ $c= trim($_POST['nama']);
 $perintah="insert into register values('','$a','$b','$c')";
 $simpan=mysqli_query($conn,$perintah);
 if($simpan) {
-    echo "sukses";
+    header('location: ../index.php');
    } else{
     echo "Upss Something wrong..";
    }
