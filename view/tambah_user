@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add user</title>
+</head>
+<style type="text/css">
+	body {
+		font-family: "Arial";
+	}
+</style>
+<body>
+
+<div style="background: #eee; padding: 20px;"">
+	<h1>Mysqli Improved</h1>
+</div>
+<h1>Tambah user</h1>
+<p><a href="daftar_user.php">Lihat Daftar user</a></p>
+<p>
+	<table>
+		<form action="../model/p_tambah_user.php" method="POST" enctype="multipart/form-data">
+		<tr>
+			<td>Username</td>
+			<td><input type="text" maxlength="12" required name="username"></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td><input type="text" maxlength="12" required name="password"></td>
+		</tr>
+		<tr>
+			<td>Nama</td>
+			<td><input type="text" maxlength="12" required name="nama"></td>
+		</tr>
+		<tr>
+			<td>Foto</td>
+			<td><input type="file"  required name="foto"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="submit" name="simpan"></td>
+		</tr>
+		</form>
+	</table>
+</p>
+</body>
+</html>
