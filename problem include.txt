@@ -1,0 +1,3 @@
+Warning: include(../config/eventInfoConfig.php) [function.include]: failed to open stream: No such file or directory
+
+buka config php.ini >> ;include_path >> include_path 

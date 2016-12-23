@@ -10,7 +10,7 @@
 </style>
 <body>
 
-<div style="background: #eee; padding: 20px;"">
+<div style="background: #eee; padding: 20px;">
 	<h1>Mysqli Improved</h1>
 </div>
 <h1>Tambah user</h1>
@@ -30,11 +30,13 @@
 			<td>Nama</td>
 			<td><input type="text" maxlength="12" required name="nama"></td>
 		</tr>
+		<!--
 		<tr>
 			<td>Foto</td>
 			<td><input type="file"  required name="foto"></td>
 		</tr>
 		<tr>
+		-->
 			<td></td>
 			<td><input type="submit" name="simpan"></td>
 		</tr>

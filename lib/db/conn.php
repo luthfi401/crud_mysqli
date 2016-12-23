@@ -1,9 +1,9 @@
 <?php
 
 //membuat variable sebagai properti untuk penamaan sebuat konfigurasi koneksi database
-$dbhost 	= 	"lcoalhost";
+$dbhost 	= 	"localhost";
 $dbuser		=	"root";
-$dbpass		=	"crud";
+$dbpass		=	"";
 $dbname		=	"db_crud";
 
 //membuat perintah koneksi mysqli
